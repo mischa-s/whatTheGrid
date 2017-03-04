@@ -1,0 +1,33 @@
+
+
+.Container{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+.header{
+  padding: 4em;
+  background-color: #5c9d4c;
+  grid-column: 1 / 16;
+  grid-row: 1
+}
+.mainText{
+  padding: 4em;
+  background-color: #b9c342;
+  grid-column: 6 / 10;
+  grid-row: 4 / 8
+
+}
+.extraText{
+  padding: 4em;
+  background-color: #ba6476;
+  grid-column: 4 / 12;
+  grid-row: 8 / 10
+
+}
+.footer{
+  padding: 4em;
+  background-color: rgb(195, 105, 66);
+  grid-column: 2/ 14;
+  grid-row: 10 / 12
+}
